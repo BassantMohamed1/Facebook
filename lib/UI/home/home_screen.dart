@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   static const List<Widget> stories = [
-    FirstStory(profilePicPath: "assets/images/profile_pic.png",),
+    FirstStory(profilePicPath: "assets/images/profile_pic.jpg",),
     Story(storyPicPath: "assets/images/story_pic1.png", userPicPath: "assets/images/user_pic1.jpg",),
     Story(storyPicPath: "assets/images/story_pic2.png", userPicPath: "assets/images/user_pic2.jpg",),
     Story(storyPicPath: "assets/images/story_pic3.png", userPicPath: "assets/images/user_pic3.png",),
